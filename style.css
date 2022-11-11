@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #2F3033;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    width: 250px;
+    margin: auto;
+    background-color: #2B2C31;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.details {
+    text-align: center;
+}
+
+.profile-foto {
+    width: 100%;
+    background: url("/images/profile_image.jpg") no-repeat 0, 0;
+}
+
+.profile-foto > img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.details > h3 {
+    color: #ffffff;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.details > h5 {
+    color: #CCAA2F;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 9.5px;
+}
+
+.contact_btns {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact_btns > a {
+    width: 38%;
+    margin: 0;
+    padding: 6px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    background: #ffffff;
+    border-radius: 6px;
+    border: none;
+}
+
+.contact_btns .contact_btns--email > img {
+    width: 15px;
+    vertical-align: middle;
+}
+
+.contact_btns--email > span {
+    margin-left: 5px;
+}
+
+.contact_btns .contact_btns--portfolio {
+    color: #ffffff;
+    background: #CCAA2F;
+}
+
+.contact_btns--portfolio > img {
+    width: 14px;
+    vertical-align: middle;
+}
+
+.contact_btns--portfolio > span {
+    margin-left: 5px;
+}
+
+.info {
+    color: #ffffff;
+    margin: 20px;
+    margin-top: 0;
+}
+
+.info--container > h3 { 
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.info--container > p {
+    font-weight: 200;
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.footer {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    background: #242528;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer--icon {
+    height: 23px;
+    background: #918E9B;
+    margin: 8px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.footer--icon > img {
+    height: 20px;
+}
